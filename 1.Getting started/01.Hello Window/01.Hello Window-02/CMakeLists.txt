@@ -20,7 +20,7 @@ file(GLOB_RECURSE PROJECT_SHADER_FILE "${PROJECT_SHADER_PATH}/**")
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCE_FILE} ${PROJECT_SHADER_FILE})
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_PATH} ${Vulkan_INCLUDE_DIRS})
-target_link_libraries(${PROJECT_NAME} PUBLIC glfw glad glm stb)
+target_link_libraries(${PROJECT_NAME} PUBLIC assimp glfw glad glm stb)
 
 set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 
