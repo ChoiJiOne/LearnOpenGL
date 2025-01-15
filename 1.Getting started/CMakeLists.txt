@@ -9,7 +9,7 @@ set(COORDINATE_SYSTEMS "06.Coordinate Systems")
 set(CAMERA "07.Camera")
 
 add_subdirectory(${HELLO_WINDOW})
-# add_subdirectory(${HELLO_TRIANGLE})
+add_subdirectory(${HELLO_TRIANGLE})
 # add_subdirectory(${SHADERS})
 # add_subdirectory(${TEXTURES})
 # add_subdirectory(${TRANSFORMATIONS})
